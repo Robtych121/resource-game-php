@@ -58,6 +58,7 @@ if (!empty($_POST['username']) && !empty($_POST['password']))
             <button type="submit" class="btn btn-outline-secondary">Register</button>
             </form>
             <b style="color: green; <?php echo $show_box; ?>">You have been emailed, please activate your account.<br><a href="login.php">Click Here to Login</a></b>
+            <a class="btn btn-outline-danger" href="login.php">Cancel</a>
         </div>
     </div>
 
