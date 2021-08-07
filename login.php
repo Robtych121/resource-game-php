@@ -48,7 +48,7 @@ if (!empty($_POST['username']) && !empty($_POST['password']))
       <button type="submit" class="btn btn-outline-secondary">Login</button>
       <a class="btn btn-outline-secondary" href="recover.php">Forgot Password?</a>
       <hr>
-      <a class="btn btn-outline-secondary" href="register.php">Register</a>
+      <a class="btn btn-outline-primary" href="register.php">Register</a>
     </form>
     </div>
   </div>
