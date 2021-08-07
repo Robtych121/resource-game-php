@@ -10,4 +10,5 @@ LoggedOutRedirect();
 ?>
 
 <p>homepage</p>
+<a href="logout.php">Logout</a>
 <?php include 'includes/templates/footer.php';?>
