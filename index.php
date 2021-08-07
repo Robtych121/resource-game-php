@@ -9,6 +9,7 @@ include 'includes/templates/nav.php';
 LoggedOutRedirect();
 ?>
 
+<div class="container">
 <p>homepage</p>
-<a href="logout.php">Logout</a>
+</div>
 <?php include 'includes/templates/footer.php';?>
