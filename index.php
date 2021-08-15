@@ -10,6 +10,6 @@ LoggedOutRedirect();
 ?>
 
 <div class="container">
-<p>homepage</p>
+    <p>Homepage</p>
 </div>
 <?php include 'includes/templates/footer.php';?>
