@@ -37,8 +37,8 @@ if (!empty($_POST['username']) && !empty($_POST['password']))
 ?>
 
 <div class="mainContent container">
-    <div class="row">
-        <div class="col-md-6 text-center ml-auto mr-auto login_form">
+    <div class="row justify-content-md-center">
+        <div class="col-md-6 text-center login_form">
             <h3>Register</h3>
             <b style="color: red;"><?php echo $error_msg; ?></b>
             <p>To register, please fill in the below form.</p>
@@ -55,6 +55,7 @@ if (!empty($_POST['username']) && !empty($_POST['password']))
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password" name="password" required>
             </div>
+            <hr>
             <button type="submit" class="btn btn-outline-secondary">Register</button> <a class="btn btn-outline-danger" href="login.php">Cancel</a>
             </form>
             <b style="color: green; <?php echo $show_box; ?>">You have been emailed, please activate your account.<br><a href="login.php">Click Here to Login</a></b>
