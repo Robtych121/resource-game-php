@@ -15,6 +15,14 @@ LoggedOutRedirect();
             <h1 class="text-center">Factories</h1>
             <hr>
             <p class="text-center">Please see below your factories</p>
+            <table class="table table-bordered">
+                <thead>
+                    <th>Name</th>
+                </thead>
+                <tbody>
+                    <?=getFactories($_SESSION['user_id']);?>
+                </tbody>
+            </table>
         </div>
     </div>
 </div>
