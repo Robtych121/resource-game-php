@@ -13,7 +13,7 @@
             Production
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Factories</a></li>
+            <li><a class="dropdown-item" href="factories.php">Factories</a></li>
             <li><a class="dropdown-item" href="#">Machines</a></li>
           </ul>
         </li>
